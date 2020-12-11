@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Welcome to Cars Project</title>
+        <title>About us</title>
     </head>
     <body>
         <div>
-            <h1>Welcome to Cars Project</h1>
+            <h1>About us</h1>
         </div> 
     </body>    
 </html>
