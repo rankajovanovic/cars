@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CarsControllor;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,6 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/cars', [CarsControllor::class, 'index'])->name('cars');
+Route::get('/cars/{car}', [CarsControllor::class, 'show'])->name('car');
